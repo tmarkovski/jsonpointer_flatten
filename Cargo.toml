@@ -1,0 +1,14 @@
+[package]
+name = "jsonpointer_flatten"
+description = "Library to flatten a JSON object or array using JSON Pointer addressing"
+license-file = "LICENSE"
+repository = "https://github.com/tmarkovski/jsonpointer_flatten/"
+version = "0.1.3"
+authors = ["Tomislav Markovski <tmarkovski@gmail.com>"]
+edition = "2018"
+
+[lib]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
